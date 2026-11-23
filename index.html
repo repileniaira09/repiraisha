@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile - SMK Banjar Asri</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-950 text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-bold tracking-wide">
+                SMK <span class="text-amber-400">BANJAR ASRI</span>
+            </a>
+            
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center space-x-7 text-sm font-medium">
+                <a href="#beranda" class="hover:text-amber-400 transition">Beranda</a>
+                <a href="#profil" class="hover:text-amber-400 transition">Profil</a>
+                <a href="#jurusan" class="hover:text-amber-400 transition">Jurusan</a>
+                <a href="#informasi" class="hover:text-amber-400 transition">Informasi & Galeri</a>
+            </div>
+
+            <!-- Tombol Menu Mobile -->
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Dropdown Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 px-4 pb-4 space-y-2 text-sm">
+            <a href="#beranda" class="block py-2 hover:text-amber-400">Beranda</a>
+            <a href="#profil" class="block py-2 hover:text-amber-400">Profil</a>
+            <a href="#jurusan" class="block py-2 hover:text-amber-400">Jurusan</a>
+            <a href="#informasi" class="block py-2 hover:text-amber-400">Informasi & Galeri</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900 text-white py-24 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <span class="bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
+                Sekolah Menengah Kejuruan Unggulan
+            </span>
+            <h1 class="text-4xl md:text-6xl font-bold mt-6 mb-6 leading-tight">
+                Selamat Datang di <span class="text-amber-400">SMK Banjar Asri</span>
+            </h1>
+            <p class="text-base md:text-lg text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Mencetak generasi profesional, berkarakter unggul, kompeten di bidang teknologi, dan siap bersaing di dunia usaha maupun dunia industri.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#jurusan" class="bg-amber-400 hover:bg-amber-500 text-blue-950 font-bold px-7 py-3.5 rounded-xl shadow-lg transition">
+                    Lihat Program Keahlian
+                </a>
+                <a href="#informasi" class="border border-white/40 hover:bg-white hover:text-blue-950 font-semibold px-7 py-3.5 rounded-xl transition">
+                    Informasi Terbaru
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Sekolah -->
+    <section id="profil" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-14">
+            <h2 class="text-3xl font-bold text-blue-950">Profil SMK Banjar Asri</h2>
+            <div class="w-20 h-1 bg-amber-400 mx-auto mt-3 rounded"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <h3 class="text-2xl font-bold text-blue-950 mb-4">Tentang Sekolah Kami</h3>
+                <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-6">
+                    <strong>SMK Banjar Asri</strong> merupakan institusi pendidikan kejuruan yang berkomitmen menyelenggarakan pendidikan berbasis praktik industri. Didukung dengan fasilitas bengkel dan laboratorium modern serta tenaga pendidik profesional, kami menyiapkan siswa menjadi lulusan yang siap kerja, cerdas, dan berakhlak mulia.
+                </p>
+                <div class="grid grid-cols-3 gap-4 text-center pt-5 border-t border-slate-100">
+                    <div>
+                        <p class="text-2xl font-bold text-blue-900">3</p>
+                        <p class="text-xs text-slate-500">Kompetensi Keahlian</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-blue-900">100%</p>
+                        <p class="text-xs text-slate-500">Berbasis Praktik</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-blue-900">DUDI</p>
+                        <p class="text-xs text-slate-500">Kemitraan Industri</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-900">
+                    <h4 class="font-bold text-lg text-blue-950 mb-2">Visi Sekolah</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        Menjadi Sekolah Menengah Kejuruan yang unggul dalam prestasi, berkarakter mulia, dan menghasilkan lulusan yang kompeten serta berdaya saing di era teknologi global.
+                    </p>
+                </div>
+                <div class="bg-amber-50 p-6 rounded-2xl border-l-4 border-amber-400">
+                    <h4 class="font-bold text-lg text-blue-950 mb-2">Misi Sekolah</h4>
+                    <ul class="list-disc list-inside text-slate-700 text-sm space-y-1.5">
+                        <li>Menyelenggarakan pembelajaran vokasi yang selaras dengan kebutuhan industri.</li>
+                        <li>Membentuk karakter siswa yang disiplin, jujur, dan bertanggung jawab.</li>
+                        <li>Memperluas kerja sama dengan Dunia Usaha dan Dunia Industri (DUDI).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kompetensi Keahlian (3 Jurusan) -->
+    <section id="jurusan" class="bg-slate-100 py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-14">
+                <h2 class="text-3xl font-bold text-blue-950">Kompetensi Keahlian</h2>
+                <p class="text-slate-600 text-sm mt-2">Tiga program keahlian unggulan di SMK Banjar Asri</p>
+                <div class="w-20 h-1 bg-amber-400 mx-auto mt-3 rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Jurusan 1: TKJ -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition duration-300 flex flex-col">
+                    <div class="bg-blue-700 p-6 text-white text-center">
+                        <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 text-3xl">💻</div>
+                        <h3 class="text-2xl font-bold">TKJ</h3>
+                        <p class="text-blue-100 text-xs mt-1">Teknik Komputer dan Jaringan</p>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Mempelajari perakitan komputer, instalasi sistem operasi, administrasi server, jaringan lokal (LAN/WAN), fiber optik, hingga keamanan jaringan.
+                        </p>
+                        <h4 class="font-semibold text-xs uppercase tracking-wider text-blue-900 mb-2">Peluang Karir:</h4>
+                        <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside">
+                            <li>Network Engineer / Teknisi Jaringan</li>
+                            <li>System & Server Administrator</li>
+                            <li>IT Support & Teknisi Komputer</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Jurusan 2: TKR -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition duration-300 flex flex-col">
+                    <div class="bg-red-600 p-6 text-white text-center">
+                        <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 text-3xl">🚗</div>
+                        <h3 class="text-2xl font-bold">TKR</h3>
+                        <p class="text-red-100 text-xs mt-1">Teknik Kendaraan Ringan</p>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Fokus pada perawatan, perbaikan, dan diagnosa sistem mesin kendaraan roda empat, kelistrikan otomotif, sasis, serta teknologi injeksi modern.
+                        </p>
+                        <h4 class="font-semibold text-xs uppercase tracking-wider text-red-700 mb-2">Peluang Karir:</h4>
+                        <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside">
+                            <li>Mekanik Otomotif Profesional</li>
+                            <li>Service Advisor Bengkel Resmi</li>
+                            <li>Wirausaha Bengkel Kendaraan</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Jurusan 3: TAV -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition duration-300 flex flex-col">
+                    <div class="bg-emerald-600 p-6 text-white text-center">
+                        <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 text-3xl">📻</div>
+                        <h3 class="text-2xl font-bold">TAV</h3>
+                        <p class="text-emerald-100 text-xs mt-1">Teknik Audio Video</p>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Mempelajari rangkaian elektronika, perakitan dan perbaikan perangkat audio (sound system), televisi/video, mikrokontroler, serta sistem penyiaran.
+                        </p>
+                        <h4 class="font-semibold text-xs uppercase tracking-wider text-emerald-700 mb-2">Peluang Karir:</h4>
+                        <ul class="text-xs text-slate-600 space-y-1 list-disc list-inside">
+                            <li>Teknisi Elektronika & Audio Video</li>
+                            <li>Operator Sound System & Broadcast</li>
+                            <li>Industri Manufaktur Elektronik</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informasi, Fasilitas & Kegiatan Sekolah (Statis / Tampilan Saja) -->
+    <section id="informasi" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-14">
+            <h2 class="text-3xl font-bold text-blue-950">Informasi, Fasilitas & Kegiatan</h2>
+            <p class="text-slate-500 text-sm mt-2">Berbagai fasilitas dan kegiatan unggulan di SMK Banjar Asri</p>
+            <div class="w-20 h-1 bg-amber-400 mx-auto mt-3 rounded"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Kartu 1 -->
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition">
+                <span class="bg-blue-50 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Fasilitas</span>
+                <h3 class="text-lg font-bold text-blue-950 mt-3 mb-2">Laboratorium Komputer & Jaringan</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Dilengkapi perangkat PC spesifikasi tinggi, router Cisco, dan perangkat fiber optik untuk mendukung praktik langsung siswa TKJ.
+                </p>
+            </div>
+
+            <!-- Kartu 2 -->
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition">
+                <span class="bg-blue-50 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Kegiatan</span>
+                <h3 class="text-lg font-bold text-blue-950 mt-3 mb-2">Praktik Kerja Industri (Prakerin)</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Program wajib bekerja sama dengan berbagai perusahaan mitra terkemuka agar siswa mendapatkan pengalaman dunia kerja nyata.
+                </p>
+            </div>
+
+            <!-- Kartu 3 -->
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition">
+                <span class="bg-blue-50 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Prestasi</span>
+                <h3 class="text-lg font-bold text-blue-950 mt-3 mb-2">Juara Lomba Kompetensi Siswa (LKS)</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Siswa SMK Banjar Asri aktif berpartisipasi dan menorehkan prestasi gemilang dalam ajang kompetisi kejuruan tingkat regional maupun nasional.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-950 text-white py-12 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h3 class="text-2xl font-bold mb-2">SMK <span class="text-amber-400">BANJAR ASRI</span></h3>
+                <p class="text-blue-200 text-sm max-w-md leading-relaxed">
+                    Mencetak tenaga kerja terampil dan berkarakter melalui kompetensi keahlian TKJ, TKR, dan TAV.
+                </p>
+            </div>
+            <div class="md:text-right text-sm text-blue-200 space-y-1">
+                <p><strong>Alamat:</strong> Banjar Asri, Jawa Barat, Indonesia</p>
+                <p><strong>Website:</strong> repi.tkj1smkba.site</p>
+                <p><strong>Email:</strong> info@tkj1smkba.site</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto border-t border-blue-900 mt-8 pt-6 text-center text-xs text-blue-300">
+            &copy; 2026 SMK Banjar Asri. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+    <!-- Script Menu Mobile -->
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
 
