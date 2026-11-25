@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TKJ - Teknik Komputer dan Jaringan | SMK Banjar Asri</title>
+    <title>Company Profile TKJ - SMK Banjar Asri</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
 
     <!-- Navbar -->
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
@@ -24,114 +24,116 @@
                         <i class="fas fa-network-wired"></i>
                     </div>
                     <div>
-                        <span class="font-extrabold text-lg text-slate-900 block leading-none">TKJ SMK BA</span>
+                        <span class="font-extrabold text-base sm:text-lg text-slate-900 block leading-none">TKJ SMK BA</span>
                         <span class="text-xs text-slate-500 font-medium">Teknik Komputer & Jaringan</span>
                     </div>
                 </div>
                 <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
                     <a href="#beranda" class="hover:text-blue-600 transition">Beranda</a>
-                    <a href="#tentang" class="hover:text-blue-600 transition">Profil Jurusan</a>
-                    <a href="#kompetensi" class="hover:text-blue-600 transition">Kompetensi</a>
-                    <a href="#prospek" class="hover:text-blue-600 transition">Prospek Kerja</a>
+                    <a href="#tentang" class="hover:text-blue-600 transition">Tentang</a>
+                    <a href="#materi" class="hover:text-blue-600 transition">Materi & Praktik</a>
+                    <a href="#prospek" class="hover:text-blue-600 transition">Karir</a>
                 </div>
-                <a href="#kontak" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition shadow-sm">
-                    Info PPDB
+                <a href="#materi" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-xl transition shadow-sm">
+                    Jelajahi Materi
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="beranda" class="pt-28 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white relative overflow-hidden">
+    <section id="beranda" class="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white relative overflow-hidden">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl">
-                <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-semibold tracking-wider uppercase mb-4">
-                    Kompetensi Keahlian Unggulan
+                <span class="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold tracking-wider uppercase mb-5">
+                    Company Profile & Pusat Belajar Jurusan
                 </span>
-                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
-                    Membangun Masa Depan Infrastruktur Digital & <span class="text-blue-400">Jaringan Modern</span>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Mencetak Generasi Unggul di Bidang <span class="text-blue-400">Jaringan & Infrastruktur IT</span>
                 </h1>
-                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
-                    Jurusan Teknik Komputer dan Jaringan (TKJ) SMK Banjar Asri mencetak tenaga ahli profesional di bidang administrasi jaringan, server, fiber optik, dan keamanan siber yang siap bersaing di era industri 4.0.
+                <p class="text-base sm:text-lg text-slate-300 mb-8 leading-relaxed">
+                    Selamat datang di website resmi Kompetensi Keahlian Teknik Komputer dan Jaringan (TKJ) SMK Banjar Asri. Pusat keunggulan teknologi, jaringan komputer, server, dan keamanan siber.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="#kompetensi" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3.5 rounded-xl transition shadow-lg shadow-blue-600/30 flex items-center gap-2">
-                        Pelajari Materi <i class="fas fa-arrow-right text-sm"></i>
+                    <a href="#materi" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3.5 rounded-xl transition shadow-lg shadow-blue-600/30 flex items-center gap-2">
+                        Lihat Materi Pembelajaran <i class="fas fa-arrow-down text-sm"></i>
                     </a>
                     <a href="#tentang" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl transition">
-                        Tentang Jurusan
+                        Profil Singkat
                     </a>
                 </div>
             </div>
         </div>
-        <!-- Dekorasi Background -->
+        <!-- Hiasan Background -->
         <div class="absolute right-0 bottom-0 opacity-10 pointer-events-none">
-            <i class="fas fa-server text-[320px] -mb-16 -mr-16"></i>
+            <i class="fas fa-server text-[300px] sm:[400px] -mb-12 -mr-12"></i>
         </div>
     </section>
 
-    <!-- Profil & Statistik -->
+    <!-- Tentang Jurusan -->
     <section id="tentang" class="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-3xl font-extrabold text-slate-900 mb-4">Mengapa Memilih Jurusan TKJ?</h2>
+                <span class="text-blue-600 font-bold text-sm tracking-wider uppercase block mb-2">Tentang Kami</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Mengapa Memilih TKJ SMK Banjar Asri?</h2>
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    Di era serba digital saat ini, setiap perusahaan, instansi pemerintah, hingga layanan publik bergantung pada koneksi internet dan server yang stabil. Siswa TKJ dibekali praktik langsung menggunakan perangkat standar industri seperti MikroTik, Cisco, dan server Linux.
+                    Jurusan TKJ membekali siswa dengan kemampuan merakit komputer, menginstalasi sistem operasi, membangun jaringan lokal (LAN) maupun luas (WAN), mengelola server, serta penguasaan teknologi fiber optik. 
                 </p>
-                <ul class="space-y-3 text-slate-700 font-medium">
-                    <li class="flex items-center gap-3">
-                        <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs"><i class="fas fa-check"></i></span>
-                        70% Praktik Langsung di Laboratorium Jaringan
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs"><i class="fas fa-check"></i></span>
-                        Kurikulum Berbasis Industri & Sertifikasi Kompetensi
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs"><i class="fas fa-check"></i></span>
-                        Program Prakerin (Magang) di Perusahaan IT & ISP
-                    </li>
-                </ul>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 font-bold"><i class="fas fa-check"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Praktik Berbasis Industri</h4>
+                            <p class="text-xs text-slate-500">Peralatan router & server standar industri.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 font-bold"><i class="fas fa-check"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Sertifikasi</h4>
+                            <p class="text-xs text-slate-500">Pelatihan dasar MikroTik & Cisco.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="text-3xl font-extrabold text-blue-600 mb-1">100%</div>
-                    <div class="text-sm font-semibold text-slate-600">Praktik Perangkat Real</div>
+            <div class="bg-blue-900 text-white p-8 sm:p-10 rounded-3xl relative overflow-hidden shadow-xl">
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-bold mb-4">Fokus Kompetensi Utama</h3>
+                    <ul class="space-y-4 text-slate-200">
+                        <li class="flex items-center gap-3"><i class="fas fa-circle-check text-blue-400"></i> Administrasi Sistem Jaringan & Server</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-circle-check text-blue-400"></i> Routing & Switching (MikroTik/Cisco)</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-circle-check text-blue-400"></i> Teknologi Fiber Optik (FTTH)</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-circle-check text-blue-400"></i> Keamanan Jaringan & Cyber Security</li>
+                    </ul>
                 </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="text-3xl font-extrabold text-blue-600 mb-1">4+</div>
-                    <div class="text-sm font-semibold text-slate-600">Lab Komputer & Jaringan</div>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="text-3xl font-extrabold text-blue-600 mb-1">MikroTik</div>
-                    <div class="text-sm font-semibold text-slate-600">Standar Kurikulum Routing</div>
-                </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="text-3xl font-extrabold text-blue-600 mb-1">Fiber</div>
-                    <div class="text-sm font-semibold text-slate-600">Instalasi & Splicing Optik</div>
+                <div class="absolute -bottom-10 -right-10 opacity-10">
+                    <i class="fas fa-microchip text-9xl"></i>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Kompetensi Keahlian -->
-    <section id="kompetensi" class="py-16 md:py-24 bg-slate-100 border-y border-slate-200">
+    <!-- Bagian Materi & Pembelajaran (Tanpa Database) -->
+    <section id="materi" class="py-16 md:py-24 bg-slate-100 border-y border-slate-200">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-14">
-                <h2 class="text-3xl font-extrabold text-slate-900 mb-3">Materi & Kompetensi Utama</h2>
-                <p class="text-slate-600">Keahlian teknis yang akan dikuasai oleh setiap siswa selama menempuh pendidikan di jurusan TKJ.</p>
+                <span class="text-blue-600 font-bold text-sm tracking-wider uppercase block mb-2">Kurikulum & Materi</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-3">Materi Pembelajaran TKJ</h2>
+                <p class="text-slate-600">Berikut adalah daftar modul dan materi keahlian utama yang dipelajari siswa secara teori maupun praktik langsung.</p>
             </div>
 
+            <!-- Grid Materi -->
             <div class="grid md:grid-cols-3 gap-6">
                 <!-- Card 1 -->
                 <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl mb-5">
                         <i class="fas fa-router"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Administrasi Infrastruktur Jaringan</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Konfigurasi routing dinamis & statis, manajemen bandwidth, VLAN, firewall, serta hotspot menggunakan router MikroTik dan Cisco.
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">1. Jaringan Komputer Dasar & WAN</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Mempelajari model OSI, pengalamatan IP (IPv4/IPv6), subnetting, perancangan kabel UTP, hingga konfigurasi perangkat router dan switch.
                     </p>
+                    <span class="inline-block bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas X & XI</span>
                 </div>
 
                 <!-- Card 2 -->
@@ -139,102 +141,110 @@
                     <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl mb-5">
                         <i class="fas fa-server"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Administrasi Sistem Jaringan</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Instalasi dan pengelolaan server berbasis Linux (Debian/Ubuntu), Web Server, DNS Server, Mail Server, hingga layanan Cloud Computing.
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">2. Administrasi Server (Linux)</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Praktik instalasi sistem operasi Debian/Ubuntu Server, manajemen layanan DHCP, DNS, Web Server (Apache/Nginx), FTP, dan Mail Server.
                     </p>
+                    <span class="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas XI & XII</span>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl mb-5">
-                        <i class="fas fa-bolt"></i>
+                        <i class="fas fa-network-wired"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Teknologi Jaringan Berbasis Luas (WAN)</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Perancangan jaringan nirkabel (Wireless) jarak jauh, instalasi kabel Fiber Optik, penyambungan (splicing), serta pengujian redaman jaringan.
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">3. Teknologi Fiber Optik</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Pengenalan kabel serat optik, alat penyambungan (Fusion Splicer), pengukuran redaman dengan OPM/OTDR, serta instalasi jaringan FTTH.
                     </p>
+                    <span class="inline-block bg-amber-50 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas XI & XII</span>
                 </div>
 
                 <!-- Card 4 -->
                 <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-xl mb-5">
-                        <i class="fas fa-desktop"></i>
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Perakitan & Troubleshooting PC</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Perakitan perangkat keras komputer, instalasi sistem operasi, perawatan berkala, serta diagnosa kerusakan hardware maupun software.
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">4. Keamanan Jaringan (Firewall)</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Konfigurasi sistem keamanan jaringan, pencegahan serangan siber dasar, pengaturan Firewall Filter Rules, NAT, dan manajemen bandwidth (QoS).
                     </p>
+                    <span class="inline-block bg-purple-50 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas XII</span>
                 </div>
 
                 <!-- Card 5 -->
                 <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-xl mb-5">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Keamanan Jaringan</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Penerapan sistem keamanan jaringan, pencegahan serangan siber dasar, konfigurasi VPN, serta monitoring lalu lintas data.
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">5. Perawatan & Troubleshooting PC</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Analisis kerusakan perangkat keras (hardware) dan perangkat lunak (software), perakitan komputer, serta pemeliharaan sistem komputer berkala.
                     </p>
+                    <span class="inline-block bg-rose-50 text-rose-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas X</span>
                 </div>
 
                 <!-- Card 6 -->
                 <div class="bg-white p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center text-xl mb-5">
-                        <i class="fas fa-code"></i>
+                        <i class="fas fa-wifi"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Dasar Pemrograman & IoT</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Pengenalan pembuatan website statis/dinamis, otomatisasi jaringan dasar, serta perakitan perangkat Internet of Things (IoT).
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">6. Jaringan Nirkabel (Wireless)</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Perancangan dan instalasi jaringan WiFi akses poin, antenadirectional/omni untuk sambungan jarak jauh, serta manajemen Hotspot voucher.
                     </p>
+                    <span class="inline-block bg-cyan-50 text-cyan-700 text-xs font-semibold px-3 py-1 rounded-full">Kelas XI</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Prospek Kerja -->
+    <!-- Prospek Karir -->
     <section id="prospek" class="py-16 md:py-24 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-blue-600 rounded-3xl p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-8 shadow-xl shadow-blue-600/20">
+        <div class="bg-blue-600 rounded-3xl p-8 sm:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-8 shadow-xl shadow-blue-600/20">
             <div class="max-w-xl">
-                <h2 class="text-3xl font-extrabold mb-4">Prospek Karir Lulusan TKJ</h2>
-                <p class="text-blue-100 mb-6 leading-relaxed">
-                    Lulusan TKJ memiliki peluang karir yang sangat luas di berbagai sektor industri, melanjutkan kuliah di bidang Informatika/Sistem Informasi, maupun berwirausaha secara mandiri.
+                <span class="bg-blue-500/40 text-blue-100 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Masa Depan Lulusan</span>
+                <h2 class="text-3xl font-extrabold mb-4">Prospek Karir & Peluang Kerja TKJ</h2>
+                <p class="text-blue-100 mb-6 leading-relaxed text-sm sm:text-base">
+                    Lulusan Teknik Komputer dan Jaringan sangat dibutuhkan oleh berbagai instansi, perusahaan swasta, penyedia layanan internet (ISP), maupun membangun usaha mandiri di bidang IT.
                 </p>
-                <div class="grid grid-cols-2 gap-3 text-sm font-semibold">
-                    <div class="bg-blue-700/60 px-4 py-2.5 rounded-lg flex items-center gap-2">
-                        <i class="fas fa-briefcase text-blue-300"></i> Network Engineer
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm font-semibold">
+                    <div class="bg-blue-700/60 px-4 py-3 rounded-xl flex items-center gap-3">
+                        <i class="fas fa-briefcase text-blue-300"></i> Network Administrator
                     </div>
-                    <div class="bg-blue-700/60 px-4 py-2.5 rounded-lg flex items-center gap-2">
-                        <i class="fas fa-briefcase text-blue-300"></i> System Administrator
-                    </div>
-                    <div class="bg-blue-700/60 px-4 py-2.5 rounded-lg flex items-center gap-2">
+                    <div class="bg-blue-700/60 px-4 py-3 rounded-xl flex items-center gap-3">
                         <i class="fas fa-briefcase text-blue-300"></i> Teknisi Fiber Optik / ISP
                     </div>
-                    <div class="bg-blue-700/60 px-4 py-2.5 rounded-lg flex items-center gap-2">
+                    <div class="bg-blue-700/60 px-4 py-3 rounded-xl flex items-center gap-3">
                         <i class="fas fa-briefcase text-blue-300"></i> IT Support Specialist
+                    </div>
+                    <div class="bg-blue-700/60 px-4 py-3 rounded-xl flex items-center gap-3">
+                        <i class="fas fa-briefcase text-blue-300"></i> System Administrator
                     </div>
                 </div>
             </div>
-            <div class="bg-white text-slate-900 p-6 rounded-2xl w-full md:w-80 shadow-lg">
-                <h3 class="font-bold text-lg mb-2">Tertarik Bergabung?</h3>
-                <p class="text-sm text-slate-600 mb-4">Jadilah bagian dari generasi ahli teknologi jaringan bersama TKJ SMK Banjar Asri.</p>
-                <a href="#kontak" class="block text-center bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 rounded-xl transition text-sm">
-                    Hubungi Jurusan TKJ
+            <div class="bg-white text-slate-900 p-6 sm:p-8 rounded-2xl w-full md:w-80 shadow-lg text-center">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xl mx-auto mb-4">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Siap Berkarir di Dunia IT?</h3>
+                <p class="text-xs sm:text-sm text-slate-600 mb-5">Bergabunglah bersama kami di Jurusan TKJ SMK Banjar Asri.</p>
+                <a href="#beranda" class="block bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 rounded-xl transition text-sm">
+                    Kembali ke Atas
                 </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="kontak" class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+    <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <div>
-                <div class="font-extrabold text-white text-lg">TKJ - SMK Banjar Asri</div>
-                <p class="text-sm mt-1">Kompetensi Keahlian Teknik Komputer dan Jaringan</p>
+                <div class="font-extrabold text-white text-base">TKJ - SMK Banjar Asri</div>
+                <p class="text-xs mt-1">Kompetensi Keahlian Teknik Komputer dan Jaringan</p>
             </div>
-            <div class="text-sm text-center md:text-right">
-                <p>&copy; 2026 Jurusan TKJ SMK Banjar Asri. Hak Cipta Dilindungi.</p>
-                <p class="text-xs text-slate-500 mt-1">Dikelola oleh Siswa & Tim IT TKJ 1</p>
+            <div class="text-xs text-slate-500">
+                <p>&copy; 2026 Jurusan TKJ SMK Banjar Asri. All rights reserved.</p>
             </div>
         </div>
     </footer>
